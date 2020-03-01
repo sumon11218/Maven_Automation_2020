@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automtiaon Test Suite" parallel="none" >
+    <test name="Smoke Test">
+        <parameter name="browser" value="Chrome" />
+        <classes>
+            <class name="ActionItem.GoogleSearch" />
+            <class name="Selenium_02162020.Yahoo_Signin" />
+        </classes>
+    </test>
+</suite>
